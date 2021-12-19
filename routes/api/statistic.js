@@ -15,7 +15,6 @@ router.get("/", (req, res) => {
             icp = stat.hasOwnProperty("icp") ? stat.icp : 0;
             cloudmusic = stat.hasOwnProperty("cloudmusic") ? stat.cloudmusic : 0;
             qqinfo = stat.hasOwnProperty("qqinfo") ? stat.qqinfo : 0;
-            onenote = stat.hasOwnProperty("onenote") ? stat.onenote : 0;
             bing = stat.hasOwnProperty("bing") ? stat.bing : 0;
             res.json({
                 tinyurl,

@@ -56,7 +56,6 @@ const qrcode = require("./routes/api/qrcode");
 const qqinfo = require("./routes/api/qqinfo");
 const sitetitle = require("./routes/api/sitetitle");
 const icp = require("./routes/api/icp.js");
-const onenote = require("./routes/api/onenote");
 const cloudmusic = require("./routes/api/cloudmusic");
 const bing = require("./routes/api/bing");
 
@@ -67,7 +66,6 @@ app.use("/api/qrcode", qrcode);
 app.use("/api/qqinfo", qqinfo);
 app.use("/api/sitetitle", sitetitle);
 app.use("/api/icp", icp);
-app.use("/api/onenote", onenote);
 app.use("/api/cloudmusic", cloudmusic);
 app.use("/api/bing", bing);
 
