@@ -25,7 +25,6 @@ router.get("/", (req, res) => {
                 icp,
                 cloudmusic,
                 qqinfo,
-                onenote,
                 bing
             })
         })
