@@ -32,7 +32,7 @@ router.get("/query", (req, res) => {
 function icp(domain) {
     return new Promise((resolve, reject) => {
         let opts = {
-            url: "http://icp.chinaz.com/" + domain,
+            url: "https://icp.chinaz.com/" + domain,
             method: "get",
             headers: {
                 "content-type": "text/html"

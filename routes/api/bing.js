@@ -45,7 +45,7 @@ function bing(day) {
             if (!error && response.statusCode == 200) {
                 if (day >= 0 && day <= 7) {
                     let ret = JSON.parse(body)
-                    let url = "http://s.cn.bing.net" + ret.images[0].url;
+                    let url = "https://s.cn.bing.net" + ret.images[0].url;
                     let copyright = ret.images[0].copyright;
                     resolve({
                         url,
