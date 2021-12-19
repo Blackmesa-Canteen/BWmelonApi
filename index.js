@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 const db = require("./config/keys").mongoURI;
 mongoose.connect(db, {useNewUrlParser: true})
         .then(() => {
-            console.log("Mongodb connected");     
+            console.log("Mongodb connected");
         })
         .catch((err) => {
             console.log(err);
@@ -73,7 +73,7 @@ app.use("/api/bing", bing);
 
 
 
-const port = 3000;
+const port = 5757;
 app.listen(port, () => {
     console.log(`Sever running on port ${port}`);
 });
