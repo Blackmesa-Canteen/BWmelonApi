@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: "mongodb://localhost:27017/BwmelonApi",
+    mongoURI: "mongodb://localhost:27017/lab",
     secretOrKey: "secret"
 }
