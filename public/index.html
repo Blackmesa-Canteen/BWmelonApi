@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,10 @@
     <meta name="description" content="工人试验场" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="bookmark" href="favicon.ico" />
-    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>工人试验场</title>
+    <title>996试验场</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a data-pjax class="navbar-brand" href="index.html">工人试验场</a>
+                    <a data-pjax class="navbar-brand" href="index.html">996试验场</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navBar">
@@ -56,11 +56,9 @@
         <!-- pjax-content开始 -->
         <div class="map-outer">
             <img src="./imgs/logo.png" alt="logo" class="logo">
-            <div class="map-inner animated bounceInDown">工人试验场</div>
-            <div class="map-desc animated bounceInUp">————API服务以及其他————</div>
+            <div class="map-inner animated bounceInDown">996试验场</div>
+            <div class="map-desc animated bounceInUp">If there is anything buggy, please contact admin@996workers.icu.</div>
         </div>
-
-        <div class="map-desc animated bounceInUp">--- API服务 ---</div>
         <div class="container" >
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 item-outer">
                 <a data-pjax href="./bing.html" class="item-inner">
@@ -144,23 +142,6 @@
                 </a>
             </div>
         </div>
-
-        <br>
-        <br>
-        <div class="map-desc animated bounceInUp">--- 试验项目 ---</div>
-        <div class="container" >
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 item-outer">
-                <a data-pjax href="./bing.html" class="item-inner">
-                    <span>abc</span>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 item-outer">
-                <a data-pjax href="./tinyurl.html" class="item-inner">
-                    <span>def</span>
-                </a>
-            </div>
-
-        </div>
         <!-- pjax-content结束 -->
     </div>
 
@@ -178,11 +159,13 @@
     <div class="loading" style="display: none;">
         <div id="loader"></div>
     </div>
-    <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
-    <script src="https://cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://cdn.bootcss.com/waypoints/2.0.2/waypoints.min.js"></script>
+<!--    <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.pjax.min.js"></script>
+    <script src="./js/particles.min.js"></script>
+<!--    <script src="https://cdn.bootcss.com/waypoints/2.0.2/waypoints.min.js"></script>-->
+    <script src="./js/waypoints.min.js"></script>
     <script src="./js/jquery.countup.min.js"></script>
     <script src="./js/index.js"></script>
 
